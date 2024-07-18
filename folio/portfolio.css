@@ -52,10 +52,9 @@ a
 }
 .image
 {
-  background-image: url(Assets/bgprofile.jpg);
+  background-image: url("Assets/bgprofile.jpg");
   min-height: 50em;
   background-size:100em;
-  color: var(--textcolor);
 }
 /* ends header styling */
 /* main styling starts here */
@@ -63,7 +62,8 @@ a
 {
     position: absolute;
     top: 40%;
-    color: var(--textcolor);
+    color: var(--bg);
+    text-shadow: 2px 3px 3px white;
     font-size: 40px;
     font-weight:bolder;
     margin-left: 150px;
